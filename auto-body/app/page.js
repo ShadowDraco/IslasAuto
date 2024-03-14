@@ -32,14 +32,32 @@ const BeforeAftersGallery = async () => {
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'>
-      <Image
-        src={'/assets/main/MainBanner.webp'}
-        width={1000}
-        height={500}
-        layout='responsive'
-        alt='shiny polished GMC'
-      />
+    <main className=''>
+      <div>
+        <Image
+          src={'/assets/main/MainBanner.webp'}
+          width={1000}
+          height={500}
+          layout='responsive'
+          alt='shiny polished GMC'
+          style={{ filter: 'opacity(50%)' }}
+        />
+        <p
+          style={{
+            fontSize: 100,
+            position: 'absolute',
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+          }}
+        >
+          {' '}
+          Islas Auto Body
+        </p>
+      </div>
+
       <BeforeAftersGallery />
     </main>
   )
