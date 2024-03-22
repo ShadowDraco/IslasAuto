@@ -52,7 +52,7 @@ export default function CustomerReviews() {
           <Typography>
             {' '}
             <em>
-              “I highly recommend ISLAS AUTO BODY. Their customer service is
+              "I highly recommend ISLAS AUTO BODY. Their customer service is
               second to none! I was updated daily. “The product quality is
               outstanding, exceeded my expectations. I was completely impressed
               with their professionalism and customer service. They offer SNAP
@@ -66,7 +66,7 @@ export default function CustomerReviews() {
           <br></br> <br></br>
           <Typography>
             <em>
-              “10/10 Amazing job. The detailing and polish made me forget I came
+              "10/10 Amazing job. The detailing and polish made me forget I came
               here for a collision repair. They finished the job in 2 weeks and
               Julio kept me updated throughout the entire process with pictures.
               Always answered my calls and texts or got back to me quickly. Also
