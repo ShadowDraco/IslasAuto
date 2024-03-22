@@ -1,33 +1,49 @@
 import React from 'react'
 
+import Typography from '@mui/material/Typography'
+import Container from '@mui/material/Container'
+import Box from '@mui/material/Box'
+import Button from '@mui/material/Button'
+
+import Link from 'next/link'
+
 export default function WhoAreWe() {
   return (
-    <div
-      style={{
+    <Box
+      sx={{
         width: '95%',
         margin: 'auto',
-        paddingTop: ' 3em',
+
         paddingBottom: '3em',
       }}
     >
-      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-        <div
-          style={{
+      <Container
+        sx={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          flexWrap: { md: 'nowrap', sm: 'wrap', xs: 'wrap' },
+          gap: 3,
+        }}
+      >
+        <Container
+          sx={{
             textAlign: 'center',
             display: 'flex',
-            alignItems: 'center',
+            my: 5,
           }}
         >
-          <div>
-            <p style={{ fontSize: 50 }}>Who are we?</p>
-            <a href='/about'>
-              <button>About Us</button>
-            </a>
-          </div>
-        </div>
+          <Box sx={{ margin: 'auto' }}>
+            <Typography sx={{ fontSize: 50, mb: 3 }}>Who are we?</Typography>
+            <Link href='/about'>
+              <Button variant='contained' color='success' size='large'>
+                About Us
+              </Button>
+            </Link>
+          </Box>
+        </Container>
 
-        <div style={{ maxWidth: '55%' }}>
-          <p>
+        <Container sx={{ maxWidth: '85%' }}>
+          <Typography sx={{ mt: 5 }}>
             {' '}
             This is Islas Auto Body! We are a family owned business operating in
             Rialto California, serving car enthusiasts and handling insurance
@@ -38,9 +54,9 @@ export default function WhoAreWe() {
             Islas Auto body is not a production body shop. We are a quality body
             shop that pays extra attention to every little detail & always takes
             an extra step for customer satisfaction.
-          </p>
-        </div>
-      </div>
-    </div>
+          </Typography>
+        </Container>
+      </Container>
+    </Box>
   )
 }

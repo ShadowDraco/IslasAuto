@@ -1,9 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 
+import Typography from '@mui/material/Typography'
+import Container from '@mui/material/Container'
+import Box from '@mui/material/Box'
 export default function MainBanner() {
   return (
-    <div>
+    <Box>
       <Image
         src={'/assets/main/MainBanner.webp'}
         width={1000}
@@ -12,8 +15,8 @@ export default function MainBanner() {
         alt='shiny polished GMC'
         style={{ filter: 'opacity(50%)' }}
       />
-      <div
-        style={{
+      <Container
+        sx={{
           position: 'absolute',
           whiteSpace: 'nowrap',
           overflow: 'hidden',
@@ -23,19 +26,32 @@ export default function MainBanner() {
           textAlign: 'center',
         }}
       >
-        <p
-          style={{
-            fontSize: 100,
-          }}
+        <Typography
+          sx={{ typography: { lg: 'h1', md: 'h1', sm: 'h2', xs: 'h3' }, my: 5 }}
         >
           {' '}
           Islas Auto Body
-        </p>
-
-        <p style={{ fontSize: 25, textAlign: 'center' }}>
-          Insurance Claims <br></br> Financing <br></br>Collisions
-        </p>
-      </div>
-    </div>
+        </Typography>
+        <Container
+          sx={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+            alignItems: 'center',
+            gap: 3,
+          }}
+        >
+          <Typography style={{ fontSize: 25, textAlign: 'left' }}>
+            〇 Collision Repair & Insurance
+          </Typography>
+          <Typography style={{ fontSize: 25, textAlign: 'left' }}>
+            〇 Paint Correction
+          </Typography>
+          <Typography style={{ fontSize: 25, textAlign: 'left' }}>
+            〇 Fiberglass Repair
+          </Typography>
+        </Container>
+      </Container>
+    </Box>
   )
 }
