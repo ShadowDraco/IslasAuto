@@ -52,13 +52,13 @@ export default function CustomerReviews() {
           <Typography>
             {' '}
             <em>
-              "I highly recommend ISLAS AUTO BODY. Their customer service is
+              &#34;I highly recommend ISLAS AUTO BODY. Their customer service is
               second to none! I was updated daily. “The product quality is
               outstanding, exceeded my expectations. I was completely impressed
               with their professionalism and customer service. They offer SNAP
               FINANCE (financing) as a way to pay for your repairs if you are
               unable to pay it all up front. Thank you Julio and to your team. I
-              am 100% HAPPY!!!!"{' '}
+              am 100% HAPPY!!!!&#34;{' '}
             </em>
             <br></br>
             <strong>- Regina Ellis</strong>
@@ -66,11 +66,11 @@ export default function CustomerReviews() {
           <br></br> <br></br>
           <Typography>
             <em>
-              "10/10 Amazing job. The detailing and polish made me forget I came
-              here for a collision repair. They finished the job in 2 weeks and
-              Julio kept me updated throughout the entire process with pictures.
-              Always answered my calls and texts or got back to me quickly. Also
-              received a 3 year warranty for the paint."{' '}
+              &#34;10/10 Amazing job. The detailing and polish made me forget I
+              came here for a collision repair. They finished the job in 2 weeks
+              and Julio kept me updated throughout the entire process with
+              pictures. Always answered my calls and texts or got back to me
+              quickly. Also received a 3 year warranty for the paint.&#34;{' '}
             </em>
             <br></br>
             <strong>- CJ</strong>
