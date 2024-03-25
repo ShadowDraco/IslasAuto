@@ -18,7 +18,11 @@ export default function MainHeading() {
       }}
     >
       <Box sx={{ gap: 5, flexWrap: 'wrap', alignItems: 'center' }}>
-        <Typography variant='h2'>
+        <Typography
+          sx={{
+            typography: { lg: 'h2', md: 'h2', sm: 'h3', xs: 'h4' },
+          }}
+        >
           <GradientSpan color1='#a0ff00' color2=' #ffffff' color3='#00ff0a'>
             <Link
               href='/'

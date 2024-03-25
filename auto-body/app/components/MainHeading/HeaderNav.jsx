@@ -14,7 +14,7 @@ export default function HeaderNav() {
         flexWrap: 'wrap',
         alignItems: 'center',
         justifyContent: 'center',
-        gap: 3,
+        gap: 2,
         backgroundColor: 'rgba(50, 50, 50, 0.2)',
         position: 'sticky',
       }}
@@ -34,10 +34,10 @@ export default function HeaderNav() {
       */}
       </Box>
 
-      <Box>
+      <Box sx={{ display: 'flex', alignItems: 'center' }}>
         <Link href='/about'>
           <Typography color='white' fontWeight={'bold'}>
-            About Us
+            About
           </Typography>
         </Link>
         <Link href='/about'>
@@ -46,7 +46,7 @@ export default function HeaderNav() {
           </IconButton>
         </Link>
       </Box>
-      <Box>
+      <Box sx={{ display: 'flex', alignItems: 'center' }}>
         {' '}
         <Link href='/gallery'>
           <Typography color='white' fontWeight={'bold'}>

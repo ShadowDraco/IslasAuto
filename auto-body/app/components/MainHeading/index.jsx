@@ -13,7 +13,7 @@ export default function MainHeadingBanner({ smallImage }) {
         top: 0,
         left: 0,
         zIndex: 5,
-        alignItems: 'center',
+        alignItems: 'top',
         justifyContent: 'space-between',
         minWidth: '100%',
         backgroundColor: 'rgba(0, 0, 0, 0.7)',
