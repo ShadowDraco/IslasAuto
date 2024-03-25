@@ -14,6 +14,7 @@ export default function MainHeading() {
         backgroundColor: 'black',
         position: 'sticky',
         paddingTop: 4,
+        backgroundColor: 'transparent',
       }}
     >
       <Box sx={{ gap: 5, flexWrap: 'wrap', alignItems: 'center' }}>

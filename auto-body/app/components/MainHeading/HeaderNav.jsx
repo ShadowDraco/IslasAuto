@@ -10,8 +10,8 @@ export default function HeaderNav() {
     <Box
       sx={{
         display: 'flex',
-        padding: 4,
-        width: '22%',
+        padding: 2,
+        flexWrap: 'wrap',
         alignItems: 'center',
         justifyContent: 'center',
         gap: 3,

@@ -17,24 +17,27 @@ export default function MainBanner() {
         style={{ filter: 'opacity(50%)' }}
       />
 
-      <Container
+      <Box
         sx={{
-          position: 'absolute',
+          position: 'relative',
           whiteSpace: 'nowrap',
           overflow: 'hidden',
           top: '50%',
           left: '50%',
-          transform: 'translate(-50%, -50%)',
+          transform: 'translate(-50%, -150%)',
           textAlign: 'center',
         }}
       >
         <Typography
-          sx={{ typography: { lg: 'h1', md: 'h1', sm: 'h2', xs: 'h3' }, my: 5 }}
+          sx={{
+            typography: { lg: 'h1', md: 'h1', sm: 'h2', xs: 'h3' },
+            my: 5,
+          }}
         >
           {' '}
           Islas Auto Body
         </Typography>
-        <Container
+        <Box
           sx={{
             display: 'flex',
             flexWrap: 'wrap',
@@ -52,8 +55,8 @@ export default function MainBanner() {
           <Typography style={{ fontSize: 25, textAlign: 'left' }}>
             〇 Fiberglass Repair
           </Typography>
-        </Container>
-      </Container>
+        </Box>
+      </Box>
     </Box>
   )
 }

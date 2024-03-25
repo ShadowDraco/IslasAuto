@@ -8,12 +8,15 @@ export default function MainHeadingBanner({ smallImage }) {
     <Box
       sx={{
         display: 'flex',
-      
+
         position: 'sticky',
+        top: 0,
+        left: 0,
+        zIndex: 5,
         alignItems: 'center',
         justifyContent: 'space-between',
         minWidth: '100%',
-        backgroundColor: 'rgba(0, 0, 0)',
+        backgroundColor: 'rgba(0, 0, 0, 0.7)',
       }}
     >
       <MainHeading />
