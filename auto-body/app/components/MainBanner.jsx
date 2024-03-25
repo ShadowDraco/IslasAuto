@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
+import MainHeadingBanner from './MainHeading'
 export default function MainBanner() {
   return (
     <Box>
@@ -15,6 +16,7 @@ export default function MainBanner() {
         alt='shiny polished GMC'
         style={{ filter: 'opacity(50%)' }}
       />
+
       <Container
         sx={{
           position: 'absolute',

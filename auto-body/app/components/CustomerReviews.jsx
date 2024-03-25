@@ -14,7 +14,7 @@ export default function CustomerReviews() {
         margin: 'auto',
         paddingTop: ' 3em',
         paddingBottom: '3em',
-        backgroundColor: 'rgb(100,100,100)',
+        backgroundColor: 'rgba(100,100,100, .5)',
       }}
     >
       <Container

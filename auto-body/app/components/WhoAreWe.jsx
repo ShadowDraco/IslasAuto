@@ -17,7 +17,7 @@ export default function WhoAreWe() {
         paddingBottom: '3em',
       }}
     >
-      <Container
+      <Box
         sx={{
           display: 'flex',
           justifyContent: 'space-between',
@@ -56,7 +56,7 @@ export default function WhoAreWe() {
             an extra step for customer satisfaction.
           </Typography>
         </Container>
-      </Container>
+      </Box>
     </Box>
   )
 }
