@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 
 import Typography from '@mui/material/Typography'
-import Container from '@mui/material/Container'
+
 import Box from '@mui/material/Box'
-import MainHeadingBanner from './MainHeading'
+
 export default function MainBanner() {
   return (
     <Box>
@@ -19,12 +19,12 @@ export default function MainBanner() {
 
       <Box
         sx={{
-          position: 'relative',
+          position: 'absolute',
           whiteSpace: 'nowrap',
           overflow: 'hidden',
           top: '50%',
           left: '50%',
-          transform: 'translate(-50%, -150%)',
+          transform: 'translate(-50%, -0%)',
           textAlign: 'center',
         }}
       >
