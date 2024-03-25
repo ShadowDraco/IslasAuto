@@ -7,9 +7,7 @@ import { MdOutlineEmail } from 'react-icons/md'
 
 export default function HeaderFooterIcons() {
   return (
-    <Box
-      sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', backgroundColor: '' }}
-    >
+    <Box sx={{ display: 'flex', gap: 2, backgroundColor: '' }}>
       <Link href='https://www.instagram.com/islasautobody/' target='_blank'>
         <IconButton variant='outline' color='success' size='large'>
           <BsInstagram />
