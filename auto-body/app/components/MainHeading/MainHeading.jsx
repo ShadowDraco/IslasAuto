@@ -7,17 +7,18 @@ export default function MainHeading() {
   return (
     <Box
       sx={{
-        padding: 4,
+        paddingLeft: 2,
+        paddingTop: 2,
         alignItems: 'center',
         justifyContent: 'space-between',
         gap: 3,
         backgroundColor: 'black',
         position: 'sticky',
-        paddingTop: 4,
+
         backgroundColor: 'transparent',
       }}
     >
-      <Box sx={{ gap: 5, flexWrap: 'wrap', alignItems: 'center' }}>
+      <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center' }}>
         <Typography
           sx={{
             typography: { lg: 'h2', md: 'h2', sm: 'h3', xs: 'h4' },

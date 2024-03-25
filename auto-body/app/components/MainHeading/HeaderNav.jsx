@@ -14,9 +14,8 @@ export default function HeaderNav() {
         flexWrap: 'wrap',
         alignItems: 'center',
         justifyContent: 'center',
-        gap: 2,
+        gap: 1,
         backgroundColor: 'rgba(50, 50, 50, 0.2)',
-        position: 'sticky',
       }}
     >
       <Box>
