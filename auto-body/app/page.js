@@ -22,7 +22,7 @@ export default function Home() {
       <CustomerReviews />
 
       <Typography>
-        Page created by{' '}
+        Web Services by{' '}
         <Link target='_blank' href='https://github.com/shadowdraco'>
           Ethan Storm
         </Link>
