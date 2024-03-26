@@ -23,12 +23,12 @@ export default function HeaderFooterIcons() {
           <FaTiktok />
         </IconButton>
       </Link>
-      <Link href='tel:9092622246' target='_blank'>
+      <Link href='tel:9513344192' target='_blank'>
         <IconButton variant='outline' color='success' size='large'>
           <FaPhone />
         </IconButton>
       </Link>
-      <Link href='mailto: CCMotorsports85@gmail.com' target='_blank'>
+      <Link href='mailto: islasautobody1@gmail.com' target='_blank'>
         <IconButton variant='outline' color='success' size='large'>
           <MdOutlineEmail />
         </IconButton>

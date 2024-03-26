@@ -10,6 +10,7 @@ export default function Home() {
   return (
     <Box>
       <MainHeadingBanner />
+
       <MainBanner />
 
       <WhoAreWe />

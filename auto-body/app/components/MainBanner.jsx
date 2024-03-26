@@ -8,35 +8,15 @@ import Box from '@mui/material/Box'
 export default function MainBanner() {
   return (
     <Box>
-      <Image
-        src={'/assets/main/MainBanner.webp'}
-        width={1000}
-        height={500}
-        layout='responsive'
-        alt='shiny polished GMC'
-        style={{ filter: 'opacity(50%)' }}
-      />
-
       <Box
         sx={{
-          position: 'absolute',
-          whiteSpace: 'nowrap',
-          overflow: 'hidden',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -0%)',
-          textAlign: 'center',
+          position: 'sticky',
+          top: '10%',
+          left: 0,
+          mt: 5,
+          zIndex: 3,
         }}
       >
-        <Typography
-          sx={{
-            typography: { lg: 'h1', md: 'h1', sm: 'h2', xs: 'h3' },
-            my: 5,
-          }}
-        >
-          {' '}
-          Islas Auto Body
-        </Typography>
         <Box
           sx={{
             display: 'flex',
@@ -46,17 +26,45 @@ export default function MainBanner() {
             gap: 3,
           }}
         >
-          <Typography style={{ fontSize: 25, textAlign: 'left' }}>
-            〇 Collision Repair & Insurance
+          <Typography
+            sx={{
+              typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h5' },
+            }}
+          >
+            〇 Insurance
           </Typography>
-          <Typography style={{ fontSize: 25, textAlign: 'left' }}>
+          <Typography
+            sx={{
+              typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h5' },
+            }}
+          >
+            〇 Collision Repair
+          </Typography>
+          <Typography
+            sx={{
+              typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h5' },
+            }}
+          >
             〇 Paint Correction
           </Typography>
-          <Typography style={{ fontSize: 25, textAlign: 'left' }}>
+          <Typography
+            sx={{
+              typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h5' },
+            }}
+          >
             〇 Fiberglass Repair
           </Typography>
         </Box>
       </Box>
+
+      <Image
+        src={'/assets/main/MainBanner.webp'}
+        width={1000}
+        height={500}
+        layout='responsive'
+        alt='Islas Auto Body Logo'
+        style={{ filter: 'opacity(100%)' }}
+      />
     </Box>
   )
 }

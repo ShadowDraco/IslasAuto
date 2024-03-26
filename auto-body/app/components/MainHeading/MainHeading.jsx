@@ -14,7 +14,6 @@ export default function MainHeading() {
         gap: 3,
         backgroundColor: 'black',
         position: 'sticky',
-
         backgroundColor: 'transparent',
       }}
     >
