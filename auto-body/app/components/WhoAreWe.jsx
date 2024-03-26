@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
-
+import GradientSpan from './wrappers/GradientSpan'
 import Link from 'next/link'
 
 export default function WhoAreWe() {
@@ -19,9 +19,8 @@ export default function WhoAreWe() {
     >
       <Box
         sx={{
-          
           justifyContent: 'space-between',
-          
+
           gap: 3,
         }}
       >
@@ -33,7 +32,17 @@ export default function WhoAreWe() {
           }}
         >
           <Box sx={{ margin: 'auto' }}>
-            <Typography sx={{ typography: { lg: 'h1', md: 'h2', sm: 'h2'}, mb: 3 }}>Who are we?</Typography>
+            {' '}
+            <Typography
+              sx={{
+                typography: { lg: 'h1', md: 'h2', sm: 'h2', xs: 'h4' },
+                mb: 3,
+              }}
+            >
+              <GradientSpan color1='#ffffff' color2='#a0ff00' color3='#00ff0a'>
+                Who are we?
+              </GradientSpan>
+            </Typography>
             <Link href='/about'>
               <Button variant='contained' color='success' size='large'>
                 About Us
