@@ -13,19 +13,19 @@ export default function WhoAreWe() {
       sx={{
         width: '95%',
         margin: 'auto',
-
+        my: 3,
         paddingBottom: '3em',
       }}
     >
       <Box
         sx={{
-          display: 'flex',
+          
           justifyContent: 'space-between',
-          flexWrap: { md: 'nowrap', sm: 'wrap', xs: 'wrap' },
+          
           gap: 3,
         }}
       >
-        <Container
+        <Box
           sx={{
             textAlign: 'center',
             display: 'flex',
@@ -33,17 +33,17 @@ export default function WhoAreWe() {
           }}
         >
           <Box sx={{ margin: 'auto' }}>
-            <Typography sx={{ fontSize: 50, mb: 3 }}>Who are we?</Typography>
+            <Typography sx={{ typography: { lg: 'h1', md: 'h2', sm: 'h2'}, mb: 3 }}>Who are we?</Typography>
             <Link href='/about'>
               <Button variant='contained' color='success' size='large'>
                 About Us
               </Button>
             </Link>
           </Box>
-        </Container>
+        </Box>
 
         <Container sx={{ maxWidth: '85%' }}>
-          <Typography sx={{ mt: 5 }}>
+          <Typography sx={{ mt: 5, typography: { lg: 'h5', md: 'h6' } }}>
             {' '}
             This is Islas Auto Body! We are a family owned business operating in
             Rialto California, serving car enthusiasts and handling insurance
