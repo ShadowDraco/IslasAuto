@@ -11,7 +11,7 @@ export default function MainBanner() {
       <Box
         sx={{
           position: 'sticky',
-          top: '25%',
+          top: '10%',
           left: 0,
           mt: 5,
           zIndex: 3,

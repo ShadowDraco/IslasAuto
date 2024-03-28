@@ -1,6 +1,6 @@
 import React from 'react'
-import { AiFillSchedule } from 'react-icons/ai'
-import { MdAccountBox } from 'react-icons/md'
+
+import { MdAccountBox, MdAutoFixHigh } from 'react-icons/md'
 import { TfiGallery } from 'react-icons/tfi'
 import { Box, IconButton, Typography } from '@mui/material'
 
@@ -31,6 +31,19 @@ export default function HeaderNav() {
         </Link>
         
       */}
+      </Box>
+
+      <Box sx={{ display: 'flex', alignItems: 'center' }}>
+        <Link href='/inquire'>
+          <Typography color='white' fontWeight={'bold'}>
+            Inquire
+          </Typography>
+        </Link>
+        <Link href='/about'>
+          <IconButton variant='outline' color='success' size='large'>
+            <MdAutoFixHigh />
+          </IconButton>
+        </Link>
       </Box>
 
       <Box sx={{ display: 'flex', alignItems: 'center' }}>
