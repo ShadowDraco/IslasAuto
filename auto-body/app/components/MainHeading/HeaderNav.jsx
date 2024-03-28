@@ -48,7 +48,11 @@ export default function HeaderNav() {
 
       <Box sx={{ display: 'flex', alignItems: 'center' }}>
         <Link href='/about'>
-          <Typography color='white' fontWeight={'bold'}>
+          <Typography
+            color='white'
+            fontWeight={'bold'}
+            sx={{ display: { md: 'flex', sm: 'none', xs: 'none' } }}
+          >
             About
           </Typography>
         </Link>
@@ -61,7 +65,11 @@ export default function HeaderNav() {
       <Box sx={{ display: 'flex', alignItems: 'center' }}>
         {' '}
         <Link href='/gallery'>
-          <Typography color='white' fontWeight={'bold'}>
+          <Typography
+            color='white'
+            fontWeight={'bold'}
+            sx={{ display: { md: 'flex', sm: 'none', xs: 'none' } }}
+          >
             Gallery
           </Typography>
         </Link>

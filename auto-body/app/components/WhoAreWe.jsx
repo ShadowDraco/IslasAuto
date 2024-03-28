@@ -32,7 +32,7 @@ export default function WhoAreWe({ noButton }) {
             my: 5,
           }}
         >
-          <Box sx={{ margin: 'auto', backgroundColor: 'rgba(0,0,0, 0.7)' }}>
+          <Box sx={{ margin: 'auto', backgroundColor: 'rgba(0,0,0, 0.7)', p: 3 }}>
             {' '}
             <Typography
               sx={{

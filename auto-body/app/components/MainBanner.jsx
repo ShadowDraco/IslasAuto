@@ -26,32 +26,33 @@ export default function MainBanner() {
             gap: 3,
             backgroundColor: 'rgba(0,0,0, 0.7)',
             color: 'white',
+            p: 3
           }}
         >
           <Typography
             sx={{
-              typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h5' },
+              typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
             }}
           >
             〇 Insurance
           </Typography>
           <Typography
             sx={{
-              typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h5' },
+              typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
             }}
           >
             〇 Collision Repair
           </Typography>
           <Typography
             sx={{
-              typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h5' },
+              typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
             }}
           >
             〇 Paint Correction
           </Typography>
           <Typography
             sx={{
-              typography: { lg: 'h2', md: 'h3', sm: 'h4', xs: 'h5' },
+              typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
             }}
           >
             〇 Fiberglass Repair
