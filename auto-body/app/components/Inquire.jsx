@@ -1,9 +1,9 @@
 import React from 'react'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
-import Button from '@mui/material/Button'
-import Link from 'next/link'
+import CarPolishing from '/public/assets/owners/CarPolishing.webp'
 import GradientSpan from './wrappers/GradientSpan'
+import Image from 'next/image'
 import HeaderFooterIcons from './MainHeading/HeaderFooterIcons'
 export default function Inquire() {
   return (
@@ -54,26 +54,41 @@ export default function Inquire() {
         <Box
           sx={{
             m: 4,
+            display: 'flex',
+            justifyContent: 'center',
+            gap: 5,
+            alignItems: 'center',
+            flexWrap: 'wrap',
           }}
         >
-          <Typography
-            sx={{ typography: { lg: 'h3', md: 'h4', sm: 'h4', xs: 'h5' } }}
-          >
-            Why choose us?
-          </Typography>
-          <Typography sx={{ mt: 4, typography: { lg: 'h5', md: 'h6' } }}>
-            We offer many services, like
-            <br></br>
-            <br></br>
-            &emsp;🔴&ensp; Collision Repair <br></br>
-            &emsp;🔴&ensp; Paint Correction <br></br>
-            &emsp;🔴&ensp; Fiberglass Repair <br></br>
-            &emsp;🔴&ensp; All Insurance Welcome <br></br>
-            &emsp;🔴&ensp; Deductible Assistance
-            <br></br>
-            <br></br> and we do so <strong>with open communication.</strong> We
-            love what we do and <strong>we want to help YOU</strong>.
-          </Typography>
+          <Box>
+            <Typography
+              sx={{ typography: { lg: 'h3', md: 'h4', sm: 'h4', xs: 'h5' } }}
+            >
+              Why choose us?
+            </Typography>
+            <Typography sx={{ mt: 4, typography: { lg: 'h5', md: 'h5', sm: 'h6' } }}>
+              We offer many services, like
+              <br></br>
+              <br></br>
+              &emsp;🔴&ensp; Collision Repair <br></br>
+              &emsp;🔴&ensp; Paint Correction <br></br>
+              &emsp;🔴&ensp; Fiberglass Repair <br></br>
+              &emsp;🔴&ensp; All Insurance Welcome <br></br>
+              &emsp;🔴&ensp; Deductible Assistance
+              <br></br>
+              <br></br> and we do so <strong>with open communication.</strong>{' '}
+              We love what we do and <strong>we want to help YOU</strong>.
+            </Typography>
+          </Box>
+          <Image
+            src={CarPolishing.src}
+            width={500}
+            height={360}
+            alt='Polishing a car'
+            layout='responsive'
+            style={{ maxWidth: 600 }}
+          />
         </Box>
       </Box>
     </Box>
