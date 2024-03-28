@@ -11,7 +11,7 @@ export default function MainBanner() {
       <Box
         sx={{
           position: 'sticky',
-          top: '10%',
+          top: '20%',
           left: 0,
           mt: 5,
           zIndex: 3,
@@ -26,7 +26,7 @@ export default function MainBanner() {
             gap: 3,
             backgroundColor: 'rgba(0,0,0, 0.7)',
             color: 'white',
-            p: 3
+            p: 3,
           }}
         >
           <Typography

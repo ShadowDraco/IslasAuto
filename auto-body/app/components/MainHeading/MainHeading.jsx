@@ -9,16 +9,12 @@ export default function MainHeading() {
       sx={{
         paddingLeft: 2,
         paddingTop: 2,
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        gap: 3,
         backgroundColor: 'black',
         position: 'sticky',
         
       }}
     >
-      <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center' }}>
-        <Typography
+     <Typography
           sx={{
             typography: { lg: 'h2', md: 'h2', sm: 'h3', xs: 'h4' },
           }}
@@ -32,7 +28,7 @@ export default function MainHeading() {
             </Link>
           </GradientSpan>
         </Typography>
-      </Box>
+      
 
       <HeaderFooterIcons />
     </Box>
