@@ -39,7 +39,7 @@ export default function HeaderNav() {
             Inquire
           </Typography>
         </Link>
-        <Link href='/about'>
+        <Link href='/inquire'>
           <IconButton variant='outline' color='success' size='large'>
             <MdAutoFixHigh />
           </IconButton>

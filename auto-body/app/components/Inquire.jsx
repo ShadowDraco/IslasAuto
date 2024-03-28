@@ -37,7 +37,7 @@ export default function Inquire() {
             <Typography
               sx={{ typography: { lg: 'h3', md: 'h4', sm: 'h4', xs: 'h5' } }}
             >
-              Please call or email us!
+              Please call or email us ASAP!
             </Typography>
             <Box
               sx={{
@@ -63,10 +63,15 @@ export default function Inquire() {
           </Typography>
           <Typography sx={{ mt: 4, typography: { lg: 'h5', md: 'h6' } }}>
             We offer many services, like
-            <br></br><br></br>
-            🔴 Collision Repair 🔴 Paint Correction 🔴 Fiberglass Repair 🔴 All
-            Insurance Welcome 🔴and Deductible Assistance🔴
-            <br></br><br></br> and we do so <strong>with open communication.</strong> We
+            <br></br>
+            <br></br>
+            &emsp;🔴&ensp; Collision Repair <br></br>
+            &emsp;🔴&ensp; Paint Correction <br></br>
+            &emsp;🔴&ensp; Fiberglass Repair <br></br>
+            &emsp;🔴&ensp; All Insurance Welcome <br></br>
+            &emsp;🔴&ensp; Deductible Assistance
+            <br></br>
+            <br></br> and we do so <strong>with open communication.</strong> We
             love what we do and <strong>we want to help YOU</strong>.
           </Typography>
         </Box>
