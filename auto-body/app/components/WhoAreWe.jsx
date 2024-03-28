@@ -54,7 +54,7 @@ export default function WhoAreWe({ noButton }) {
           </Box>
         </Box>
 
-        <Box sx={{ maxWidth: '85%' }}>
+        <Box>
           <Typography
             sx={{
               mt: 4,
