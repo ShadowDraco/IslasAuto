@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import CCBANNER from '../../assets/CCMotorsportsBanner.webp'
+import IABBANNER from '/public/assets/logos/LogoSquare.webp'
 import Box from '@mui/material/Box'
 import Link from 'next/link'
 export default function MainHeadingImage({ smallImage }) {
@@ -15,10 +15,10 @@ export default function MainHeadingImage({ smallImage }) {
     >
       <Link href='/'>
         <Image
-          src={CCBANNER}
-          width={CCBANNER.width}
-          height={CCBANNER.height}
-          alt='CC Motorsports Banner'
+          src={IABBANNER}
+          width={IABBANNER.width}
+          height={IABBANNER.height}
+          alt='Islas Auto Body Banner'
           layout='responsive'
           priority
           style={{ maxWidth: !smallImage ? 900 : 500 }}

@@ -6,22 +6,23 @@ import WhoAreWe from './components/WhoAreWe'
 import CustomerReviews from './components/CustomerReviews'
 import MainBanner from './components/MainBanner'
 import MainHeadingBanner from './components/MainHeading'
-import BeforeAftersGallery from './components/BeforeAftersGallery'
+
+import Gallery2 from './components/Gallery'
 
 export default function Home() {
   return (
-    <Box>
+    <Box className='FadeMeIn'>
       <MainHeadingBanner />
 
       <MainBanner />
 
       <WhoAreWe />
 
-      <BeforeAftersGallery />
+      <Gallery2 />
 
       <CustomerReviews />
 
-      <Typography>
+      <Typography sx={{ mt: 2, textAlign: 'center' }}>
         Web Services by{' '}
         <Link target='_blank' href='https://github.com/shadowdraco'>
           Ethan Storm

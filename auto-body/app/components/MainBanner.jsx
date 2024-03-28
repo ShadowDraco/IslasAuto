@@ -25,6 +25,7 @@ export default function MainBanner() {
             alignItems: 'center',
             gap: 3,
             backgroundColor: 'rgba(0,0,0, 0.7)',
+            color: 'white',
           }}
         >
           <Typography

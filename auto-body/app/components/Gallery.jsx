@@ -1,12 +1,16 @@
 'use client'
 import React from 'react'
-import Image from 'next/image'
-
 import Box from '@mui/material/Box'
-import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
-import { Carousel } from 'react-responsive-carousel'
 
+import ImageGallery from 'react-image-gallery'
 import { beforeAfters } from '../../public/assets/images'
+const beforeAftersItems = beforeAfters.map(image => {
+  return {
+    original: image.src,
+    thumbnail: image.src,
+    alt: 'A car worked on by Islas!',
+  }
+})
 
 export default function Gallery() {
   return (
@@ -18,33 +22,7 @@ export default function Gallery() {
         mb: 5,
       }}
     >
-      <Carousel
-        autoPlay={true}
-        infiniteLoop
-        interval={4000}
-        showArrows={true}
-        emulateTouch
-        swipeable
-        verticalSwipe='natural'
-        dynamicHeight={true}
-        showIndicators={false}
-        showThumbs={false}
-      >
-        {beforeAfters?.map((image, i) => {
-          return (
-            <Box key={i}>
-              <Image
-                src={image.src}
-                width={1000}
-                height={1000}
-                priority={true}
-                alt='Picture of a serviced car'
-                style={{ objectFit: 'contain', objectPosition: 'center' }}
-              />
-            </Box>
-          )
-        })}
-      </Carousel>
+      <ImageGallery items={beforeAftersItems} lazyLoad autoPlay />
     </Box>
   )
 }

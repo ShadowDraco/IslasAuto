@@ -7,7 +7,7 @@ import Button from '@mui/material/Button'
 import GradientSpan from './wrappers/GradientSpan'
 import Link from 'next/link'
 
-export default function WhoAreWe() {
+export default function WhoAreWe({ noButton }) {
   return (
     <Box
       sx={{
@@ -43,11 +43,13 @@ export default function WhoAreWe() {
                 Who are we?
               </GradientSpan>
             </Typography>
-            <Link href='/about'>
-              <Button variant='contained' color='success' size='large'>
-                About Us
-              </Button>
-            </Link>
+            {!noButton && (
+              <Link href='/about'>
+                <Button variant='contained' color='success' size='large'>
+                  About Us
+                </Button>
+              </Link>
+            )}
           </Box>
         </Box>
 
