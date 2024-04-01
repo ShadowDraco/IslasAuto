@@ -30,7 +30,7 @@ export default function HeaderFooterIcons() {
         </IconButton>
       </Link>
 
-      <Link href='mailto: islasautobody1@gmail.com' target='_blank'>
+      <Link href='mailto:islasautobody1@gmail.com' target='_blank'>
         <IconButton variant='outline' color='success' size='large'>
           <MdOutlineEmail />
         </IconButton>

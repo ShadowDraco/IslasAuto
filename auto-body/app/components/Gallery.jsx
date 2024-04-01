@@ -14,13 +14,13 @@ const beforeAftersItems = beforeAfters.map(image => {
 
 export default function Gallery() {
   return (
-    
+    <Box sx={{ my: 5}}>
       <ImageGallery
         items={beforeAftersItems}
         lazyLoad
         autoPlay
         style={{ maxWidth: '100%' }}
       />
-    
+    </Box>
   )
 }

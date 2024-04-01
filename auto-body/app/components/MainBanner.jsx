@@ -41,6 +41,13 @@ export default function MainBanner() {
               typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
             }}
           >
+            〇 Finance
+          </Typography>
+          <Typography
+            sx={{
+              typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
+            }}
+          >
             〇 Collision Repair
           </Typography>
           <Typography

@@ -21,13 +21,6 @@ export default function Home() {
       <Gallery2 />
 
       <CustomerReviews />
-
-      <Typography sx={{ mt: 2, textAlign: 'center' }}>
-        Web Services by{' '}
-        <Link target='_blank' href='https://github.com/shadowdraco'>
-          Ethan Storm
-        </Link>
-      </Typography>
     </Box>
   )
 }
