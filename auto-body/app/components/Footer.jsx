@@ -17,11 +17,11 @@ export default function Footer() {
         </Typography>
         <Typography variant='h6' fontWeight={'bold'} my={2}>
           <Link
-            href='mailto:islasautobody1@gmail.com'
+            href='mailto:islasautobody@gmail.com'
             target='blank'
             style={{ textDecoration: 'none', color: 'white' }}
           >
-            islasautobody1@gmail.com <br></br>
+            islasautobody@gmail.com <br></br>
           </Link>{' '}
           <Link
             href='tel:9513344192'
