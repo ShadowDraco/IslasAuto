@@ -107,7 +107,7 @@ export default function InquireForm() {
           />
         </FormControl>
         <FormControl>
-          <FormLabel sx={{ color: 'white' }}>What's wrong?</FormLabel>
+          <FormLabel sx={{ color: 'white' }}>What&apos;s wrong?</FormLabel>
           <Input
             type='text'
             sx={{ color: 'white' }}
