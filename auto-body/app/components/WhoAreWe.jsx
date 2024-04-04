@@ -7,7 +7,8 @@ import Button from '@mui/material/Button'
 import GradientSpan from './wrappers/GradientSpan'
 import Link from 'next/link'
 import Image from 'next/image'
-import BothJulios from '/public/assets/owners/BothJulios.webp'
+//! import BothJulios from '/public/assets/owners/BothJulios.webp'
+import BothJulios from '/public/assets/main/MainBanner.webp'
 export default function WhoAreWe({ noButton }) {
   return (
     <Box
@@ -32,7 +33,14 @@ export default function WhoAreWe({ noButton }) {
             my: 5,
           }}
         >
-          <Box sx={{ margin: 'auto', backgroundColor: 'rgba(0,0,0, 0.5)', p: 3, borderRadius: '10%' }}>
+          <Box
+            sx={{
+              margin: 'auto',
+              backgroundColor: 'rgba(0,0,0, 0.5)',
+              p: 3,
+              borderRadius: '10%',
+            }}
+          >
             {' '}
             <Typography
               sx={{

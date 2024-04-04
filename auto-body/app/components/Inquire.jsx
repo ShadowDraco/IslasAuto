@@ -105,7 +105,7 @@ export default function Inquire() {
             justifyContent: 'center',
             gap: 3,
             p: 3,
-            maxWidth: '95%',
+            maxWidth: '90%',
             overflow: 'hidden',
           }}
         >
