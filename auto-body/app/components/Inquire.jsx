@@ -24,7 +24,14 @@ export default function Inquire() {
             my: 5,
           }}
         >
-          <Box sx={{ margin: 'auto', backgroundColor: 'rgba(0,0,0, 0.5)', p: 3, borderRadius: '10%'}}>
+          <Box
+            sx={{
+              margin: 'auto',
+              backgroundColor: 'rgba(0,0,0, 0.5)',
+              p: 3,
+              borderRadius: '10%',
+            }}
+          >
             {' '}
             <Typography
               sx={{
@@ -79,7 +86,7 @@ export default function Inquire() {
               We offer many services, like
               <br></br>
               <br></br>
-              &emsp;🔴&ensp; All Insurance Welcome <br></br>
+              &emsp;🔴&ensp; All Claims Insurance Welcome <br></br>
               &emsp;🔴&ensp; Deductible Assistance <br></br>
               &emsp;🔴&ensp; Financing <br></br>
               &emsp;🔴&ensp; Collision Repair <br></br>
