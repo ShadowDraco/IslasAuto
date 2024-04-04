@@ -34,35 +34,35 @@ export default function MainBanner() {
               typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
             }}
           >
-            〇 Insurance
+            • Insurance
           </Typography>
           <Typography
             sx={{
               typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
             }}
           >
-            〇 Finance
+            • Finance
           </Typography>
           <Typography
             sx={{
               typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
             }}
           >
-            〇 Collision Repair
+            • Collision Repair
           </Typography>
           <Typography
             sx={{
               typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
             }}
           >
-            〇 Paint Correction
+            • Paint Correction
           </Typography>
           <Typography
             sx={{
               typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
             }}
           >
-            〇 Fiberglass Repair
+            • Fiberglass Repair
           </Typography>
         </Box>
       </Box>
