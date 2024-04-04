@@ -8,7 +8,7 @@ import GradientSpan from './wrappers/GradientSpan'
 import Link from 'next/link'
 import Image from 'next/image'
 //! import BothJulios from '/public/assets/owners/BothJulios.webp'
-import BothJulios from '/public/assets/main/MainBanner.webp'
+import BothJulios from '/public/assets/owners/BothJuliosTEMP.webp'
 export default function WhoAreWe({ noButton }) {
   return (
     <Box
