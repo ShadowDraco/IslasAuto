@@ -1,7 +1,8 @@
 import React from 'react'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
-import CarPolishing from '/public/assets/owners/CarPolishing.webp'
+import CarPolishing1 from '/public/assets/owners/CarPolishing1.webp'
+import CarPolishing2 from '/public/assets/owners/CarPolishing2.webp'
 import GradientSpan from './wrappers/GradientSpan'
 import Image from 'next/image'
 import InquireForm from './InquireForm'
@@ -62,7 +63,7 @@ export default function Inquire() {
             flexWrap: 'wrap',
           }}
         >
-          <Box sx={{maxWidth: 600 }}>
+          <Box sx={{ maxWidth: 600 }}>
             <Typography
               sx={{ typography: { lg: 'h3', md: 'h4', sm: 'h4', xs: 'h5' } }}
             >
@@ -89,13 +90,31 @@ export default function Inquire() {
               We love what we do and <strong>we want to help YOU</strong>.
             </Typography>
           </Box>
+        </Box>
+        <Box
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 3,
+            p: 3,
+          }}
+        >
           <Image
-            src={CarPolishing.src}
+            src={CarPolishing1.src}
             width={500}
-            height={360}
+            height={600}
             alt='Polishing a car'
             layout='responsive'
-            style={{ maxWidth: 600 }}
+            style={{ maxWidth: 600, width: '40%' }}
+          />
+          <Image
+            src={CarPolishing2.src}
+            width={500}
+            height={600}
+            alt='Polishing a car'
+            layout='responsive'
+            style={{ maxWidth: 600, width: '40%' }}
           />
         </Box>
       </Box>
