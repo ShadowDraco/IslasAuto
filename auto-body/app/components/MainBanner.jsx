@@ -34,14 +34,14 @@ export default function MainBanner() {
               typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
             }}
           >
-            <strong>• All Insurance Claims Welcome!</strong>
+            <strong>• All Insurance Claims Welcome</strong>
           </Typography>
           <Typography
             sx={{
               typography: { lg: 'h3', md: 'h4', sm: 'h5', xs: 'h6' },
             }}
           >
-            • Finance
+            • Financing available
           </Typography>
           <Typography
             sx={{
