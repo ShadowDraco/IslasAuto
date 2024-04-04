@@ -106,23 +106,24 @@ export default function Inquire() {
             gap: 3,
             p: 3,
             maxWidth: '95%',
+            overflow: 'hidden',
           }}
         >
           <Image
             src={CarPolishing1.src}
             width={500}
             height={600}
-            alt='Polishing a car'
+            alt='Before Work'
             layout='responsive'
-            style={{ maxWidth: 600, width: '40%' }}
+            style={{ maxWidth: 600 }}
           />
           <Image
             src={CarPolishing2.src}
             width={500}
             height={600}
-            alt='Polishing a car'
+            alt='After Work'
             layout='responsive'
-            style={{ maxWidth: 600, width: '40%' }}
+            style={{ maxWidth: 600 }}
           />
         </Box>
       </Box>
