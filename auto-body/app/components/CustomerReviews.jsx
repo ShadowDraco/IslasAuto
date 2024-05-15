@@ -37,10 +37,7 @@ export default function CustomerReviews() {
             <Typography sx={{ fontSize: 50, mb: 3 }}>
               Customer Reviews
             </Typography>
-            <Link
-              target='_blank'
-              href='https://www.google.com/search?q=islas+auto+body&oq=islas+auto+body+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg7MgYIAhBFGD0yBggDEEUYPDIGCAQQRRg80gEIMzIwMWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x80c34d779f9dedb9:0xbe571f005d9772cd,1,,,,'
-            >
+            <Link target='_blank' href='https://g.co/kgs/rqkTCbG'>
               <Button variant='contained' color='success' size='large'>
                 See our reviews!
               </Button>
