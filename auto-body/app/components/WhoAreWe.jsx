@@ -7,6 +7,7 @@ import Button from '@mui/material/Button'
 import GradientSpan from './wrappers/GradientSpan'
 import Link from 'next/link'
 import Image from 'next/image'
+import SnapFinance from '/public/assets/main/SnapFinance.jpeg'
 //! import BothJulios from '/public/assets/owners/BothJulios.webp'
 import BothJulios from '/public/assets/owners/BothJuliosTEMP.webp'
 export default function WhoAreWe({ noButton }) {
@@ -81,10 +82,41 @@ export default function WhoAreWe({ noButton }) {
               width={BothJulios.width}
               height={BothJulios.height}
               layout='responsive'
-              alt='Julio and Julio, owners of Islas Auto Body'
+              //alt='Julio and Julio, owners of Islas Auto Body'
+              alt='Finishing touches on a fixed car'
               style={{ maxWidth: 700, margin: 'auto' }}
             />
           </Box>
+          <Box sx={{ width: '50%', margin: 'auto',
+            textAlign: 'center'
+          }}>
+            <Typography
+              sx={{
+              
+                typography: { lg: 'h3', md: 'h4', sm: 'h4', xs: 'h5' },
+                mb: 3,
+              }}
+            >
+            <GradientSpan color1='#ffffff' color2='#a0ff00' color3='#00ff0a'>
+                Need Financing?
+              </GradientSpan>
+             
+            </Typography>
+            {!noButton && (
+              <Link href='/about'>
+                <Button variant='contained' color='success' size='large' mb='3'>
+                  Sign up now!
+                </Button>
+              </Link>
+            )}
+            <Box sx={{ my: 3}}> 
+            <Link href="https://snapf.in/LuEflE1" target="_blank" rel="noopener noreferrer" ><Image width={646} height={80} src={SnapFinance.src} alt="Snap Finance - Apply Here" style={{boxShadow: '4px 2px 6px #010101', border: 'none'}}/></Link>
+
+            </Box>
+             
+            </Box>
+          
+            
           <Typography
             sx={{ typography: { lg: 'h3', md: 'h4', sm: 'h4', xs: 'h5' } }}
           >
