@@ -110,7 +110,8 @@ export default function WhoAreWe({ noButton }) {
               </Link>
             )}
             <Box sx={{ my: 3}}> 
-            <Link href="https://snapf.in/LuEflE1" target="_blank" rel="noopener noreferrer" ><Image width={646} height={80} src={SnapFinance.src} alt="Snap Finance - Apply Here" style={{boxShadow: '4px 2px 6px #010101', border: 'none'}}/></Link>
+            <Link href="https://snapf.in/LuEflE1" target="_blank" rel="noopener noreferrer" >
+            <Image width={646} height={80} src={SnapFinance.src} alt="Snap Finance - Apply Here" style={{boxShadow: '4px 2px 6px #010101', border: 'none'}} layout="responsive"/></Link>
 
             </Box>
              
