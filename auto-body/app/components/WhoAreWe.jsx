@@ -88,7 +88,7 @@ export default function WhoAreWe({ noButton }) {
             />
           </Box>
           <Box sx={{ width: '50%', margin: 'auto',
-            textAlign: 'center'
+            textAlign: 'center', mb: 3
           }}>
             <Typography
               sx={{
@@ -102,21 +102,21 @@ export default function WhoAreWe({ noButton }) {
               </GradientSpan>
              
             </Typography>
+
             {!noButton && (
               <Link href='/about'>
-                <Button variant='contained' color='success' size='large' mb='3'>
+                <Button variant='contained' color='success' size='large' mb='5'>
                   Sign up now!
                 </Button>
               </Link>
             )}
-            <Box sx={{ my: 3}}> 
-            <Link href="https://snapf.in/LuEflE1" target="_blank" rel="noopener noreferrer" >
-            <Image width={646} height={80} src={SnapFinance.src} alt="Snap Finance - Apply Here" style={{boxShadow: '4px 2px 6px #010101', border: 'none'}} layout="responsive"/></Link>
-
-            </Box>
-             
-            </Box>
+           </Box>
           
+           <Box sx={{ my: 3,  width: "100%", margin:"auto", my:4}}> 
+              <Link href="https://snapf.in/LuEflE1" target="_blank" rel="noopener noreferrer" >
+                <Image width={646} height={80} src={SnapFinance.src} alt="Snap Finance - Apply Here" style={{boxShadow: '4px 2px 6px #010101', border: 'none' }} layout="responsive" />
+              </Link>
+            </Box>
             
           <Typography
             sx={{ typography: { lg: 'h3', md: 'h4', sm: 'h4', xs: 'h5' } }}
