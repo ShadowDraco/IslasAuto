@@ -8,8 +8,8 @@ import GradientSpan from './wrappers/GradientSpan'
 import Link from 'next/link'
 import Image from 'next/image'
 import SnapFinance from '/public/assets/main/SnapFinance.jpeg'
-//! import BothJulios from '/public/assets/owners/BothJulios.webp'
-import BothJulios from '/public/assets/owners/BothJuliosTEMP.webp'
+import BothJulios from '/public/assets/owners/BothJulios.webp'
+
 export default function WhoAreWe({ noButton }) {
   return (
     <Box

@@ -107,6 +107,7 @@ export default function Inquire() {
             p: 3,
             maxWidth: '90%',
             overflow: 'hidden',
+            margin: 'auto',
           }}
         >
           <Image
@@ -115,7 +116,6 @@ export default function Inquire() {
             height={600}
             alt='Before Work'
             layout='responsive'
-            style={{ maxWidth: 600 }}
           />
           <Image
             src={CarPolishing2.src}
@@ -123,7 +123,6 @@ export default function Inquire() {
             height={600}
             alt='After Work'
             layout='responsive'
-            style={{ maxWidth: 600 }}
           />
         </Box>
       </Box>
