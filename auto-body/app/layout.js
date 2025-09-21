@@ -9,7 +9,7 @@ import { Divider } from '@mui/material'
 
 export const metadata = {
   title: 'Islas AutoBody',
-  description: 'The best Auto Body Service in the Inland Empire! All insurance claims, Financing, Collision, Paint, Fiberglass, we do it All!',
+  description: 'The Best Auto Body Service in the Inland Empire! All insurance claims, Financing, Collision, Paint, Fiberglass, we do it All!',
 }
 
 export default function RootLayout({ children }) {
