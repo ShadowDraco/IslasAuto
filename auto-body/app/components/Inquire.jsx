@@ -75,6 +75,19 @@ export default function Inquire() {
               sx={{
                 typography: { lg: "h3", md: "h4", sm: "h4", xs: "h5" },
                 mt: 5,
+                display: { xs: "none", sm: "block" },
+              }}
+            >
+              <GradientSpan color2="#ffffff" color1="#a0ff00" color3="#00ff0a">
+                Why Choose Us?
+              </GradientSpan>
+            </Typography>
+            <Typography
+              sx={{
+                typography: { lg: "h3", md: "h4", sm: "h4", xs: "h5" },
+                mt: 5,
+                textAlign: "center",
+                display: { xs: "block", sm: "none" },
               }}
             >
               <GradientSpan color2="#ffffff" color1="#a0ff00" color3="#00ff0a">
@@ -98,7 +111,7 @@ export default function Inquire() {
                 typography: { lg: "h5", md: "h5", sm: "h6" },
               }}
             >
-              &emsp;🔴&ensp; All Claims Insurance Welcome <br></br>
+              &emsp;🔴&ensp; All Claims Insurance<br></br>
               &emsp;🔴&ensp; Deductible Assistance <br></br>
               &emsp;🔴&ensp; Financing <br></br>
               &emsp;🔴&ensp; Collision Repair <br></br>

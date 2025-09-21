@@ -20,7 +20,7 @@ export default function WhoAreWe({ noButton }) {
     >
       <Box
         sx={{
-          display: "flex",
+          display: { xs: "none", sm: "flex" },
           justifyContent: "space-between",
           alignItems: "center",
         }}
@@ -29,20 +29,37 @@ export default function WhoAreWe({ noButton }) {
           sx={{
             typography: { lg: "h1", md: "h2", sm: "h2", xs: "h4" },
             mb: 3,
+            display: { xs: "none", sm: "block" },
           }}
         >
           <GradientSpan color1="#ffffff" color2="#a0ff00" color3="#00ff0a">
             Who are we?
           </GradientSpan>
         </Typography>
+
         {!noButton && (
-          <Link href="/about">
-            <Button variant="contained" color="success" size="large">
-              About Us
-            </Button>
-          </Link>
+          <Box>
+            <Link href="/about">
+              <Button variant="contained" color="success" size="large">
+                About Us
+              </Button>
+            </Link>
+          </Box>
         )}
       </Box>
+
+      <Typography
+        sx={{
+          typography: { lg: "h1", md: "h2", sm: "h2", xs: "h4" },
+          mb: 3,
+          display: { xs: "block", sm: "none" },
+          textAlign: "center",
+        }}
+      >
+        <GradientSpan color1="#ffffff" color2="#a0ff00" color3="#00ff0a">
+          Who are we?
+        </GradientSpan>
+      </Typography>
 
       <Box>
         <Typography
@@ -70,23 +87,33 @@ export default function WhoAreWe({ noButton }) {
             style={{ maxWidth: 700, margin: "auto" }}
           />
         </Box>
-        <Box sx={{ display: "flex", justifyContent: "space-between", mb: 2 }}>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            display: { xs: "none", sm: "flex" },
+            mb: 2,
+          }}
+        >
           {!noButton && (
-            <Link
-              href="https://snapf.in/LuEflE1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="contained" color="success" size="large" mb="5">
-                Sign up now!
-              </Button>
-            </Link>
+            <Box>
+              <Link
+                href="https://snapf.in/LuEflE1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="contained" color="success" size="large" mb="5">
+                  Sign up now!
+                </Button>
+              </Link>
+            </Box>
           )}
 
           <Typography
             sx={{
               typography: { lg: "h3", md: "h4", sm: "h4", xs: "h5" },
               mb: 3,
+              display: { xs: "none", sm: "block" },
             }}
           >
             <GradientSpan color1="#ffffff" color2="#a0ff00" color3="#00ff0a">
@@ -95,7 +122,27 @@ export default function WhoAreWe({ noButton }) {
           </Typography>
         </Box>
 
-        <Box sx={{ my: 3, width: "100%", margin: "auto" }}>
+        <Typography
+          sx={{
+            typography: { lg: "h3", md: "h4", sm: "h4", xs: "h5" },
+            mb: 3,
+            display: { xs: "block", sm: "none" },
+            textAlign: "center",
+          }}
+        >
+          <GradientSpan color1="#ffffff" color2="#a0ff00" color3="#00ff0a">
+            Need Financing?
+          </GradientSpan>
+        </Typography>
+
+        <Box
+          sx={{
+            my: 3,
+            width: "100%",
+            margin: "auto",
+            ":hover": { backgroundColor: "white", transition: "0.3s ease" },
+          }}
+        >
           <Link
             href="https://snapf.in/LuEflE1"
             target="_blank"
@@ -114,7 +161,23 @@ export default function WhoAreWe({ noButton }) {
         </Box>
 
         <Typography
-          sx={{ typography: { lg: "h3", md: "h4", sm: "h4", xs: "h5" }, mt: 5 }}
+          sx={{
+            typography: { lg: "h3", md: "h4", sm: "h4", xs: "h5" },
+            mt: 5,
+            display: { xs: "block", sm: "none" },
+            textAlign: "center",
+          }}
+        >
+          <GradientSpan color2="#ffffff" color1="#a0ff00" color3="#00ff0a">
+            Why Choose Us?
+          </GradientSpan>
+        </Typography>
+        <Typography
+          sx={{
+            typography: { lg: "h3", md: "h4", sm: "h4", xs: "h5" },
+            mt: 5,
+            display: { xs: "none", sm: "block" },
+          }}
         >
           <GradientSpan color2="#ffffff" color1="#a0ff00" color3="#00ff0a">
             Why Choose Us?
