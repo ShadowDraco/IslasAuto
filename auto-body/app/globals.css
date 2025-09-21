@@ -1,18 +1,12 @@
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background: rgb(231, 231, 231);
+  --foreground: rgb(23, 23, 23);
+--foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 23, 23, 23;
+    --background-end-rgb: 64, 64, 64;
 }
 
 @import "~react-image-gallery/styles/css/image-gallery.css";
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -24,25 +18,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
-
-.FadeMeIn {
-  animation: 1s ease-out 0s 1 fadeIn;
-}
-
-.center-page {
-  text-align: center;
-  margin: auto;
-  height: 60vh;
-  width: 60vw;
-}
 
 .lds-dual-ring {
   display: inline-block;

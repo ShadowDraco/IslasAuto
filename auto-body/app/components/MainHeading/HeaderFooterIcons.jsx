@@ -1,15 +1,15 @@
-import React from 'react'
-import Link from 'next/link'
-import { FaTiktok, FaPhone } from 'react-icons/fa'
-import { BsInstagram } from 'react-icons/bs'
-import { Box, IconButton } from '@mui/material'
-import { MdOutlineEmail } from 'react-icons/md'
+import React from "react";
+import Link from "next/link";
+import { FaPhone } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
+import { Box, IconButton } from "@mui/material";
+import { MdOutlineEmail } from "react-icons/md";
 
 export default function HeaderFooterIcons() {
   return (
-    <Box sx={{ display: 'flex', gap: 1, backgroundColor: '' }}>
-      <Link href='https://www.instagram.com/islasautobody/' target='_blank'>
-        <IconButton variant='outline' color='success' size='large'>
+    <Box sx={{ display: "flex", gap: 1 }}>
+      <Link href="https://www.instagram.com/islasautobody/" target="_blank">
+        <IconButton variant="outline" color="success" size="large">
           <BsInstagram />
         </IconButton>
       </Link>
@@ -24,17 +24,17 @@ export default function HeaderFooterIcons() {
         </IconButton>
       </Link>*/}
 
-      <Link href='tel:9513344192' target='_blank'>
-        <IconButton variant='outline' color='success' size='large'>
+      <Link href="tel:9513344192" target="_blank">
+        <IconButton variant="outline" color="success" size="large">
           <FaPhone />
         </IconButton>
       </Link>
 
-      <Link href='mailto:islasautobody@gmail.com' target='_blank'>
-        <IconButton variant='outline' color='success' size='large'>
+      <Link href="mailto:islasautobody@gmail.com" target="_blank">
+        <IconButton variant="outline" color="success" size="large">
           <MdOutlineEmail />
         </IconButton>
       </Link>
     </Box>
-  )
+  );
 }
