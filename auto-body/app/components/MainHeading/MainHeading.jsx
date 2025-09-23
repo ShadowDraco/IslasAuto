@@ -13,7 +13,7 @@ export default function MainHeading() {
     >
       <Typography
         sx={{
-          typography: { lg: "h2", md: "h2", sm: "h3", xs: "h4" },
+          typography: { lg: "h2", md: "h3", sm: "h4", xs: "h6" },
         }}
       >
         <GradientSpan color1="#a0ff00" color2=" #ffffff" color3="#00ff0a">
@@ -21,13 +21,10 @@ export default function MainHeading() {
             href="/"
             style={{ textDecoration: "none", color: "transparent" }}
           >
-            Islas Auto
+            Islas Auto Body
           </Link>
         </GradientSpan>
       </Typography>
-      <Box display={{ xs: "none", sm: "none", md: "block" }}>
-        <HeaderFooterIcons />
-      </Box>
     </Box>
   );
 }

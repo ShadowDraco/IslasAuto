@@ -51,7 +51,7 @@ export default function Footer() {
             <br></br>
             <br></br>
             <Typography variant="overline" my={5} fontSize="1em">
-              Monday-Friday: 8:00AM-5:00PM <br></br>SAT 9:00AM-1:00PM <br></br>
+              Monday-Friday: 8:30AM-5:30PM <br></br>SAT 9:00AM-12:00PM <br></br>
               SUN: CLOSED
             </Typography>
           </Box>
@@ -131,7 +131,7 @@ export default function Footer() {
           <br></br>
           <br></br>
           <Typography variant="overline" my={5} fontSize="1em">
-            Monday-Friday: 8:00AM-5:00PM <br></br>SAT 9:00AM-1:00PM <br></br>
+            Monday-Friday: 8:30AM-5:30PM <br></br>SAT 9:00AM-12:00PM <br></br>
             SUN: CLOSED
           </Typography>
         </Box>

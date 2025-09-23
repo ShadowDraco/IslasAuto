@@ -40,7 +40,7 @@ export default function Inquire() {
               }}
             >
               <GradientSpan color1="#00ff00" color2="#00aa00" color3="#aaffaa">
-                Does your car need work?
+                Are You in Need of Repairs?
               </GradientSpan>
             </Typography>
             <Typography
