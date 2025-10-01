@@ -32,8 +32,9 @@ export default function WhoAreWe({ noButton }) {
         <Typography
           sx={{
             typography: { lg: "h1", md: "h2", sm: "h2", xs: "h4" },
-            mb: 3,
+
             display: { xs: "none", sm: "block" },
+            backgroundColor: "rgba(0,0,0,0.3)",
           }}
         >
           <GradientSpan color1="#ffffff" color2="#a0ff00" color3="#00ff0a">
