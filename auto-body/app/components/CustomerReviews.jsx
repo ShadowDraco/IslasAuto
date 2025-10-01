@@ -14,7 +14,9 @@ export default function CustomerReviews() {
         margin: "auto",
         paddingTop: " 3em",
         paddingBottom: "3em",
-        backgroundColor: "rgba(0,0,0,0.3)",
+        backgroundColor: "rgba(0,0,0,0.78)",
+        borderTop: "2px solid gray",
+        borderBottom: "2px solid gray",
         mb: 5,
       }}
     >

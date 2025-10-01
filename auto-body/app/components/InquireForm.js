@@ -34,7 +34,7 @@ export default function InquireForm() {
         sx={{
           my: 3,
           p: 3,
-          backgroundColor: 'rgba(70, 70, 70, 0.5)',
+          backgroundColor: 'rgba(0, 0, 0, 0.5)',
           margin: 'auto',
           width: '80%',
           maxWidth: 600,
@@ -55,11 +55,11 @@ export default function InquireForm() {
             gap: 2,
           }}
         >
-          <FormControl>
+          <FormControl sx={{ backgroundColor: 'rgba(255,255,255, 0.5'}}>
             <FormLabel sx={{ color: 'white' }}>First Name</FormLabel>
             <Input
               type='text'
-              sx={{ color: 'white' }}
+              sx={{ color: 'white', borderBottom: '2px gray solid'}}
               onChange={e => {
                 setFName(e.target.value)
               }}
@@ -69,7 +69,7 @@ export default function InquireForm() {
             <FormLabel sx={{ color: 'white' }}>Last Name</FormLabel>
             <Input
               type='text'
-              sx={{ color: 'white' }}
+              sx={{ color: 'white',  borderBottom: '2px gray solid'}}
               onChange={e => {
                 setLName(e.target.value)
               }}
@@ -80,7 +80,7 @@ export default function InquireForm() {
           <FormLabel sx={{ color: 'white' }}>Email address</FormLabel>
           <Input
             type='email'
-            sx={{ color: 'white' }}
+            sx={{ color: 'white',  borderBottom: '2px gray solid' }}
             onChange={e => {
               setEmail(e.target.value)
             }}
@@ -90,7 +90,7 @@ export default function InquireForm() {
           <FormLabel sx={{ color: 'white' }}>Phone number</FormLabel>
           <Input
             type='tel'
-            sx={{ color: 'white' }}
+            sx={{ color: 'white',  borderBottom: '2px gray solid' }}
             onChange={e => {
               setPhone(e.target.value)
             }}
@@ -100,17 +100,17 @@ export default function InquireForm() {
           <FormLabel sx={{ color: 'white' }}>Make + model</FormLabel>
           <Input
             type='text'
-            sx={{ color: 'white' }}
+            sx={{ color: 'white',  borderBottom: '2px gray solid' }}
             onChange={e => {
               setVehicle(e.target.value)
             }}
           />
         </FormControl>
         <FormControl>
-          <FormLabel sx={{ color: 'white' }}>What&apos;s wrong?</FormLabel>
+          <FormLabel sx={{ color: 'white', }}>What&apos;s wrong?</FormLabel>
           <Input
             type='text'
-            sx={{ color: 'white' }}
+            sx={{ color: 'white',  borderBottom: '2px gray solid' }}
             onChange={e => {
               setDescription(e.target.value)
             }}

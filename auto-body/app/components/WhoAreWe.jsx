@@ -1,7 +1,6 @@
 import React from "react";
 
 import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import GradientSpan from "./wrappers/GradientSpan";
@@ -16,6 +15,10 @@ export default function WhoAreWe({ noButton }) {
       sx={{
         backgroundColor: "rgba(0,0,0,0.3)",
         p: 3,
+        my: 5,
+        mb: "30%",
+        borderTop: "2px solid gray",
+        borderBottom: "2px solid gray",
       }}
     >
       <Box
@@ -23,13 +26,15 @@ export default function WhoAreWe({ noButton }) {
           display: { xs: "none", sm: "flex" },
           justifyContent: "space-between",
           alignItems: "center",
+          backgroundColor: "rgba(0,0,0,0.5)",
         }}
       >
         <Typography
           sx={{
             typography: { lg: "h1", md: "h2", sm: "h2", xs: "h4" },
-            mb: 3,
+
             display: { xs: "none", sm: "block" },
+            backgroundColor: "rgba(0,0,0,0.3)",
           }}
         >
           <GradientSpan color1="#ffffff" color2="#a0ff00" color3="#00ff0a">
@@ -61,10 +66,10 @@ export default function WhoAreWe({ noButton }) {
         </GradientSpan>
       </Typography>
 
-      <Box>
+      <Box sx={{ backgroundColor: "rgba(0,0,0,0.5)" }}>
         <Typography
           sx={{
-            mt: 4,
+            py: 5,
             typography: { lg: "h4", md: "h4" },
             textAlign: "center",
           }}
@@ -92,7 +97,7 @@ export default function WhoAreWe({ noButton }) {
             display: "flex",
             justifyContent: "space-between",
             display: { xs: "none", sm: "flex" },
-            mb: 2,
+            my: 5,
           }}
         >
           {!noButton && (
@@ -188,12 +193,13 @@ export default function WhoAreWe({ noButton }) {
             mt: 4,
             typography: { lg: "h5", md: "h6" },
             textAlign: "center",
+            py: 3,
+            backgroundColor: "rgba(0,0,0,0.3)",
           }}
         >
           Islas Auto body is not a production body shop. We are a quality body
           shop that pays extra <strong>attention</strong> to every little detail
           & always takes an extra step for customer satisfaction.{" "}
-          <strong>Communication</strong>
         </Typography>
       </Box>
     </Box>
