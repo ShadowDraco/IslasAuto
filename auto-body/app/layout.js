@@ -16,10 +16,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={`${inter.className}`}>
-        <MainHeadingBanner />
-        <Divider />
-        {children}
-        <Footer />
+          <MainHeadingBanner />
+            <Divider />
+            {children}
+          <Footer />
       </body>
       <Analytics />
     </html>

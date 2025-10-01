@@ -6,9 +6,10 @@ export default function Services() {
     <Box
       sx={{
         flexGrow: 1,
-        backgroundColor: "rgba(0,0,0,0.3)",
+        backgroundColor: "rgba(0,0,0,0.5)",
         p: 4,
-        my: 5,
+        mt: 5,
+        mb: "30%",
         borderTop: "2px solid gray",
         borderBottom: "2px solid gray",
       }}

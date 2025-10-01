@@ -23,12 +23,14 @@ export default function Inquire() {
             textAlign: "center",
             display: "flex",
             my: 5,
+            borderTop: "2px solid gray",
+            borderBottom: "2px solid gray",
           }}
         >
           <Box
             sx={{
               margin: "auto",
-              backgroundColor: "rgba(0,0,0, 0.5)",
+              backgroundColor: "rgba(0,0,0, 0.3)",
               p: 3,
             }}
           >
@@ -39,7 +41,7 @@ export default function Inquire() {
                 mb: 3,
               }}
             >
-              <GradientSpan color1="#00ff00" color2="#00aa00" color3="#aaffaa">
+              <GradientSpan color1="#aaffaa" color2="#00aa00" color3="#aaffaa">
                 Are You in Need of Repairs?
               </GradientSpan>
             </Typography>
@@ -62,15 +64,18 @@ export default function Inquire() {
         <InquireForm />
         <Box
           sx={{
-            m: 4,
+            my: 4,
+            py: 5,
             display: "flex",
             justifyContent: "center",
             gap: 5,
             alignItems: "center",
             flexWrap: "wrap",
+            borderTop: "2px solid gray",
+            borderBottom: "2px solid gray",
           }}
         >
-          <Box sx={{ maxWidth: 600 }}>
+          <Box sx={{ maxWidth: 600, p: 5, backgroundColor: "rgba(0,0,0,0.5)" }}>
             <Typography
               sx={{
                 typography: { lg: "h3", md: "h4", sm: "h4", xs: "h5" },
@@ -108,6 +113,7 @@ export default function Inquire() {
                 alignContent: "center",
                 textAlign: "left",
                 mt: 4,
+
                 typography: { lg: "h5", md: "h5", sm: "h6" },
               }}
             >
@@ -132,25 +138,29 @@ export default function Inquire() {
             justifyContent: "center",
             gap: 3,
             p: 3,
-            maxWidth: "90%",
             overflow: "hidden",
             margin: "auto",
           }}
         >
-          <Image
-            src={CarPolishing1.src}
-            width={500}
-            height={600}
-            alt="Before Work"
-            layout="responsive"
-          />
-          <Image
-            src={CarPolishing2.src}
-            width={500}
-            height={600}
-            alt="After Work"
-            layout="responsive"
-          />
+          <Box>
+            <Image
+              src={CarPolishing1.src}
+              alt="Before Work"
+              width={500}
+              height={700}
+              layout="responsive"
+            />
+          </Box>
+
+          <Box>
+            <Image
+              src={CarPolishing2.src}
+              width={500}
+              height={700}
+              alt="After Work"
+              layout="responsive"
+            />
+          </Box>
         </Box>
       </Box>
     </Container>

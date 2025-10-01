@@ -8,13 +8,20 @@ const beforeAftersItems = beforeAfters.map((image) => {
   return {
     original: image.src,
     thumbnail: image.src,
-    alt: "A car worked on by Islas!",
+    alt: "A car worked on by Islas autobody!",
   };
 });
 
 export default function Gallery() {
   return (
-    <Container sx={{ my: 5 }}>
+    <Container
+      sx={{
+        my: 5,
+        py: 5,
+        borderTop: "2px solid gray",
+        borderBottom: "2px solid gray",
+      }}
+    >
       <ImageGallery
         items={beforeAftersItems}
         lazyLoad
