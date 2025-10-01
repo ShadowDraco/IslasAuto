@@ -11,12 +11,6 @@
 body {
   color: rgb(var(--foreground-rgb));
   background-color: 'black';
-  background-image: url(../public/assets/logos/LogoParallax.webp);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
 }
 
 

@@ -6,6 +6,7 @@ export default function page() {
   return (
     <Box className='FadeMeIn'>
       <Gallery />
+      <MainHeadingImage />
     </Box>
   )
 }
