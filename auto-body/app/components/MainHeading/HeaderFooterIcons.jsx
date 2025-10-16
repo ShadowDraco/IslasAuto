@@ -24,7 +24,7 @@ export default function HeaderFooterIcons() {
         </IconButton>
       </Link>*/}
 
-      <Link href="tel:9513344192" target="_blank">
+      <Link href="tel:9519040479" target="_blank">
         <IconButton variant="outline" color="success" size="large">
           <FaPhone />
         </IconButton>

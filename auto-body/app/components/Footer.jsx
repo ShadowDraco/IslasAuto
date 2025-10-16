@@ -72,7 +72,7 @@ export default function Footer() {
             <Box sx={{ p: 1 }}>
               <Typography variant="overline">
                 <Link
-                  href="tel:9513344192"
+                  href="tel:9519040479"
                   target="blank"
                   style={{ color: "white" }}
                 >
