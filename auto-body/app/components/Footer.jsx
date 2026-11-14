@@ -76,7 +76,7 @@ export default function Footer() {
                   target="blank"
                   style={{ color: "white" }}
                 >
-                  (951) 334-4192
+                  (951) 904-0479
                 </Link>
               </Typography>
             </Box>
